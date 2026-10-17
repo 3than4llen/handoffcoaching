@@ -157,3 +157,8 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .policy h1{font-size:clamp(2.2rem,4.5vw,3rem);margin-bottom:.2em}
 .policy h2{font-size:1.4rem;margin-top:1.8em;max-width:none}
 .policy p{max-width:40em}
+
+/* Why-UX band: heading uses the band's lead style */
+.band h2.shift-lead{max-width:none;margin:0}
+.band .shift div p{color:#CFD3CE;font-size:1.05rem;margin:0 0 1em}
+.band .shift div p:last-child{margin-bottom:0}
