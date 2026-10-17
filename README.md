@@ -36,4 +36,4 @@ After you upload the site, send yourself a test message. In the Web3Forms dashbo
 - **Colors and fonts:** change the variables at the top of `styles.css`.
 - **Prices and wording:** edit them directly in `index.html`. Each section is labeled with a comment.
 - **Your photo:** in the About section, replace `assets/handoff-mark.svg` with a headshot, e.g. `assets/ethan.jpg`. A real face builds trust for a local service.
-- **Service area:** search `index.html` for "Silicon Valley" to adjust it.
+- **Service area:** search `index.html` for "Bay Area" to adjust it.
