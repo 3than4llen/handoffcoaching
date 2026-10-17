@@ -26,6 +26,7 @@ form.addEventListener('submit', async (e) => {
     const data = await res.json();
     if (res.ok && data.success) {
       form.reset();
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form: 'contact' });
       status.className = 'form-status ok';
       status.textContent = "Thanks! Your message is on its way. I'll reply within one business day.";
     } else {
