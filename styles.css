@@ -148,3 +148,12 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .footer-inner{display:grid;gap:10px}
 .footer-inner img{height:30px;width:auto;margin-bottom:8px}
 .site-footer .fine{color:#9AA19C;max-width:60em}
+
+/* Footer links */
+.site-footer a{color:#CFD3CE;text-decoration:underline;text-underline-offset:2px}
+.site-footer a:hover{color:#fff}
+
+/* Policy page */
+.policy h1{font-size:clamp(2.2rem,4.5vw,3rem);margin-bottom:.2em}
+.policy h2{font-size:1.4rem;margin-top:1.8em;max-width:none}
+.policy p{max-width:40em}
