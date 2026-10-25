@@ -162,3 +162,54 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .band h2.shift-lead{max-width:none;margin:0}
 .band .shift div p{color:#CFD3CE;font-size:1.05rem;margin:0 0 1em}
 .band .shift div p:last-child{margin-bottom:0}
+
+/* ---------- AI product landing page (ai-product.html) ---------- */
+.lp-hero{padding:72px 0 64px}
+.lp-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start}
+.lp-hero h1{font-size:clamp(2.4rem,5vw,3.9rem)}
+.lp-hero .lede{margin-bottom:.8em}
+.lp-points{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:10px;color:var(--ink-2);font-size:.98rem}
+.lp-points li{padding-left:24px;position:relative}
+.lp-points li::before{content:"";position:absolute;left:2px;top:.55em;width:8px;height:8px;border-radius:50%;border:2px solid var(--green)}
+.lp-form{box-shadow:0 20px 40px -24px rgba(30,36,32,.25);scroll-margin-top:90px}
+.lp-form h2{font-size:1.55rem;margin:0 0 .25em;max-width:none}
+.lp-form .fine{margin:0}
+.lp-form .btn{width:100%;text-align:center}
+.form input::placeholder,.form textarea::placeholder{color:#8A918C}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:520px){.form-row{grid-template-columns:1fr}}
+@media (max-width:900px){.lp-hero{padding:48px 0}.lp-hero-grid{grid-template-columns:1fr;gap:36px}}
+
+.lp-areas{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;margin-top:32px}
+.lp-areas>div{border-top:1px solid var(--line);padding:22px 0 24px}
+.lp-areas h3{font-size:1.15rem;margin-bottom:.35em}
+.lp-areas p{color:var(--ink-2);margin:0;max-width:34em}
+@media (max-width:760px){.lp-areas{grid-template-columns:1fr}}
+
+.case{display:grid;grid-template-columns:240px 1fr;gap:48px;padding:40px 0;border-top:1px solid var(--line)}
+.case:first-of-type{margin-top:28px}
+.case-meta h3{font-size:1.45rem;margin-bottom:.3em}
+.case h4{font:600 .76rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin:0 0 .7em}
+.case p{max-width:40em;color:var(--ink-2)}
+.case p+h4{margin-top:1.6em}
+.case blockquote{margin:1.4em 0;padding-left:16px;border-left:3px solid var(--amber);font:400 1.15rem/1.4 var(--serif);font-style:italic;color:var(--ink);max-width:36em}
+.case .case-outcome{font-weight:600;color:var(--ink);margin:0}
+.case-more{border-top:1px solid var(--line);padding-top:24px;margin:0;color:var(--ink-2)}
+@media (max-width:760px){.case{grid-template-columns:1fr;gap:10px;padding:32px 0}}
+
+.plan{display:flex;flex-direction:column}
+.plan>p:not(.price):not(.meta){color:var(--ink-2);font-size:.96rem}
+.plan ul{margin-bottom:24px}
+.plan .btn{margin-top:auto;text-align:center}
+
+.lp-final .btn{background:var(--amber);color:var(--ink)}
+.lp-final .btn:hover{background:#F0B65A}
+.lp-final .fine,.lp-final .fine a{color:#9AA19C}
+
+.lp-sticky{display:none}
+@media (max-width:860px){
+  .lp-sticky{display:block;position:fixed;left:16px;right:16px;bottom:16px;z-index:20;transform:translateY(160%);transition:transform .2s ease}
+  .lp-sticky.show{transform:none}
+  .lp-sticky .btn{display:block;text-align:center;box-shadow:0 10px 30px -10px rgba(30,36,32,.6)}
+}
+@media (prefers-reduced-motion:reduce){.lp-sticky{transition:none}}
