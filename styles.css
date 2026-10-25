@@ -212,3 +212,4 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
   .lp-sticky .btn{display:block;text-align:center;box-shadow:0 10px 30px -10px rgba(30,36,32,.6)}
 }
 @media (prefers-reduced-motion:reduce){.lp-sticky{transition:none}}
+@media (max-width:480px){.lp-long{display:none}}
