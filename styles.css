@@ -224,3 +224,10 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .paths .card .link-arrow{margin-top:auto}
 @media (max-width:760px){.paths{grid-template-columns:1fr}}
 .paths .card p.eyebrow{color:var(--green)}
+
+/* Homepage: AI product design row under the coaching prices */
+.services-extra{margin-top:32px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px 40px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 30px}
+.services-extra h3{margin:0 0 .3em}
+.services-extra p:not(.eyebrow){color:var(--ink-2);margin:0;max-width:40em}
+.services-extra .eyebrow{margin-bottom:.6em}
+@media (max-width:760px){.services-extra{grid-template-columns:1fr}.services-extra .btn{justify-self:start}}
