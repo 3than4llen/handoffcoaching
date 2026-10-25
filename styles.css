@@ -214,3 +214,13 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 @media (prefers-reduced-motion:reduce){.lp-sticky{transition:none}}
 @media (max-width:480px){.lp-long{display:none}}
 .case blockquote+h4{margin-top:1.6em}
+
+/* Homepage: "Two ways I can help" */
+.paths{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:32px}
+.paths .card{display:flex;flex-direction:column;gap:6px;padding:32px}
+.paths .card .eyebrow{margin-bottom:.4em}
+.paths .card h3{font-size:1.5rem;margin:0}
+.paths .card p:not(.eyebrow){margin:0 0 18px}
+.paths .card .link-arrow{margin-top:auto}
+@media (max-width:760px){.paths{grid-template-columns:1fr}}
+.paths .card p.eyebrow{color:var(--green)}
