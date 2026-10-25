@@ -286,15 +286,53 @@
     </div>
   </section>
 
-  <!-- CLOSING CTA -->
-  <section class="band lp-final">
-    <div class="wrap shift">
-      <p class="shift-lead">Send me the part of your product you're least sure about.</p>
+  <!-- CLOSING CTA + FORM -->
+  <section class="section lp-final" id="contact">
+    <div class="wrap contact-grid">
       <div>
+        <h2>Send me the part of your product you're least sure about.</h2>
         <p>I'll read it, and if I can help I'll tell you how. If I can't, I'll say so.</p>
-        <p><a href="#start" class="btn" data-cta="final">Start a conversation</a></p>
-        <p class="fine">Or email <a href="mailto:hello@handoffcoaching.com" data-cta="email">hello@handoffcoaching.com</a></p>
+        <p>Prefer email? <a href="mailto:hello@handoffcoaching.com" data-cta="email">hello@handoffcoaching.com</a></p>
+        <p class="fine">I'm happy to sign your NDA before you share anything.</p>
       </div>
+
+      <form id="start-bottom" class="form lp-form js-lead" data-form-id="ai_product_bottom"
+              data-success="Thanks. It's in my inbox. I'll reply within one business day."
+              action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="efd7a72b-8904-4221-abfa-79aa4dd9cd3e">
+          <input type="hidden" name="subject" value="AI product inquiry from handoffcoaching.com">
+          <input type="hidden" name="from_name" value="Handoff: AI product page">
+          <input type="hidden" name="page" value="ai-product">
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  
+          <div class="form-row">
+            <label>Name<input type="text" name="name" required autocomplete="name"></label>
+            <label>Work email<input type="email" name="email" required autocomplete="email"></label>
+          </div>
+          <label><span>Company or product link <span class="opt">(optional)</span></span><input type="text" name="company" autocomplete="organization" placeholder="acme.ai"></label>
+          <div class="form-row">
+            <label>Where you are
+              <select name="stage">
+                <option>Prototype</option>
+                <option>In beta</option>
+                <option>Live</option>
+                <option>Scaling</option>
+              </select>
+            </label>
+            <label>Interested in
+              <select name="interest">
+                <option>Not sure yet</option>
+                <option>AI UX audit</option>
+                <option>Design sprint</option>
+                <option>Fractional design lead</option>
+              </select>
+            </label>
+          </div>
+          <label>Where is it getting stuck?<textarea name="message" rows="4" required placeholder="Users don't trust the summaries, onboarding drops off after the first prompt, we need a design lead…"></textarea></label>
+          <button type="submit" class="btn">Send to Ethan</button>
+          <p class="fine">I read these myself and reply within one business day, usually with a question or two about your product. You won't be added to a mailing list.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
     </div>
   </section>
 </main>

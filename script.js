@@ -30,7 +30,8 @@
     if (!el) return;
     track('cta_click', { cta_location: el.dataset.cta, link_url: el.getAttribute('href') || '' });
     if (el.dataset.interest) {
-      var sel = document.querySelector('form.js-lead select[name="interest"]');
+      var target = document.querySelector(el.getAttribute('href')) || document;
+      var sel = target.querySelector('select[name="interest"]') || document.querySelector('form.js-lead select[name="interest"]');
       if (sel) sel.value = el.dataset.interest;
     }
   });

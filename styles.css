@@ -202,9 +202,8 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .plan ul{margin-bottom:24px}
 .plan .btn{margin-top:auto;text-align:center}
 
-.lp-final .btn{background:var(--amber);color:var(--ink)}
-.lp-final .btn:hover{background:#F0B65A}
-.lp-final .fine,.lp-final .fine a{color:#9AA19C}
+.lp-final{border-top:1px solid var(--line)}
+.lp-final .form .btn{width:100%;text-align:center}
 
 .lp-sticky{display:none}
 @media (max-width:860px){
