@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://handoffcoaching.com/sitemap.xml
