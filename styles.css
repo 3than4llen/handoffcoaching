@@ -213,3 +213,4 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 }
 @media (prefers-reduced-motion:reduce){.lp-sticky{transition:none}}
 @media (max-width:480px){.lp-long{display:none}}
+.case blockquote+h4{margin-top:1.6em}
