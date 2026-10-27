@@ -205,13 +205,16 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .lp-final{border-top:1px solid var(--line)}
 .lp-final .form .btn{width:100%;text-align:center}
 
+.lp-header-cta{opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s}
+.lp-header-cta.show{opacity:1;visibility:visible}
 .lp-sticky{display:none}
 @media (max-width:860px){
+  .lp-header-cta{display:none}
   .lp-sticky{display:block;position:fixed;left:16px;right:16px;bottom:16px;z-index:20;transform:translateY(160%);transition:transform .2s ease}
   .lp-sticky.show{transform:none}
   .lp-sticky .btn{display:block;text-align:center;box-shadow:0 10px 30px -10px rgba(30,36,32,.6)}
 }
-@media (prefers-reduced-motion:reduce){.lp-sticky{transition:none}}
+@media (prefers-reduced-motion:reduce){.lp-sticky,.lp-header-cta{transition:none}}
 @media (max-width:480px){.lp-long{display:none}}
 .case blockquote+h4{margin-top:1.6em}
 

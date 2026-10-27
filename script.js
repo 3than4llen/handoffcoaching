@@ -86,16 +86,26 @@
     });
   });
 
-  // --- Landing page: show the mobile sticky button only while the hero and form are off screen.
-  var sticky = document.querySelector('.lp-sticky');
-  var hero = document.querySelector('.lp-hero');
-  if (sticky && hero && 'IntersectionObserver' in window) {
-    var visible = new Set();
+  // --- Landing page: the header and mobile "Request a 30-minute review" buttons only show
+  // while neither lead form is on screen (they just jump to the form).
+  var forms = document.querySelectorAll('form.js-lead');
+  var jumpers = document.querySelectorAll('.lp-jump');
+  if (jumpers.length && forms.length && 'IntersectionObserver' in window) {
+    var onScreen = new Set();
+    var setVisible = function (show) {
+      jumpers.forEach(function (el) {
+        el.classList.toggle('show', show);
+        el.setAttribute('aria-hidden', show ? 'false' : 'true');
+        var link = el.matches('a') ? el : el.querySelector('a');
+        if (link) link.tabIndex = show ? 0 : -1;
+      });
+    };
+    setVisible(false);
     var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { en.isIntersecting ? visible.add(en.target) : visible.delete(en.target); });
-      sticky.classList.toggle('show', visible.size === 0);
-    });
-    io.observe(hero);
-    document.querySelectorAll('.lp-final').forEach(function (el) { io.observe(el); });
+      // A form counts as on screen once a real part of it is visible, not a sliver at the edge.
+      entries.forEach(function (en) { en.intersectionRect.height >= 160 ? onScreen.add(en.target) : onScreen.delete(en.target); });
+      setVisible(onScreen.size === 0);
+    }, { threshold: [0, 0.05, 0.1, 0.15, 0.2, 0.3, 0.5, 0.75, 1] });
+    forms.forEach(function (f) { io.observe(f); });
   }
 })();
