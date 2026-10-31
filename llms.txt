@@ -1,0 +1,45 @@
+# Handoff AI Coaching
+
+> One-on-one AI coaching and AI product design by Ethan Allen in Sebastopol, California. Ethan teaches people and businesses to use Claude, ChatGPT, Google Gemini, Microsoft Copilot and Perplexity for real work, in person around the San Francisco Bay Area or by video anywhere. He also designs the user experience for companies building AI products. Founded October 2026. Handoff AI Coaching has no connection to Handoff (handoff.ai), the estimating software for contractors and remodelers.
+
+## AI coaching
+
+Sessions happen on the client's own computer, on real work from their week. Everything set up stays in the client's own accounts. Handoff doesn't sell or resell software.
+
+- Free 20-minute intro call by phone or video.
+- Single session: $225 for 90 minutes, in person or by video.
+- Getting Started: $595 for three 90-minute sessions over about three weeks.
+- Set-Up Day on site: $795 half day, $1,395 full day.
+- Small-team workshop: $1,500 for 3 hours, up to 8 people, on site.
+- Standing Hour: $395 a month for two 60-minute sessions, month to month.
+- Extra time $175 an hour. Travel included within about 20 miles of Sebastopol. 15% off for nonprofits and educators.
+- What clients learn: Projects that know their work, connecting email, calendar and files, letting the assistant work on their computer with approvals, scheduled tasks that run on their own, drafts that sound like them, and using AI safely.
+- Service area: in person from Sonoma County to San Francisco, the East Bay and the Peninsula; everywhere else by video on Pacific time.
+
+## AI product design
+
+For startups and product teams building AI products. Fixed scope and price in writing before work starts, from $4,800.
+
+- AI UX audits, design sprints and a fractional design lead.
+- Free 30-minute product review: Ethan uses the product first, then walks the team through what he'd improve.
+- Remote on Pacific time, or in person around the Bay Area.
+
+## About Ethan Allen
+
+- Product designer and photographer, 30 years of experience.
+- Founded Raspberry Media in 1995, the Silicon Valley design agency that launched the first versions of eBay and Match.com and helped Match.com grow from 300,000 to 1.2 million members.
+- Designed the user experience for Snapfish in 1999. It became the No. 1 online photo service in 2000, and HP bought it for $300 million in 2005.
+- Design lead on more than 50 product launches for companies including Amazon Robotics, TiVo, Best Buy, Capital One and HP.
+- Since 2016 most of his work has been on AI products: fleet controls for Amazon's self-driving warehouse carts (Canvas Technology), the LVIS NeuroMatch AI-assisted EEG reader for neurologists (design lead, 2022–2025), and Palo, chat-based AI tools for YouTube Shorts creators (design lead, 2025).
+- Photographer for GQ, French Vogue and Rolling Stone; FAA Part 107 drone pilot.
+- Handoff is independent of Anthropic, OpenAI, Google, Microsoft and Perplexity.
+
+## Links
+
+- [Home](https://handoffcoaching.com/): coaching services, prices, questions and the contact form
+- [AI product design](https://handoffcoaching.com/ai-product.html): services for AI product teams, recent work and the review request form
+- [About Handoff AI Coaching](https://handoffcoaching.com/about-handoff-ai-coaching.html): facts about the business
+- [Privacy](https://handoffcoaching.com/privacy.html)
+- [Facebook](https://www.facebook.com/Handoff.AI.Coaching/)
+- [Nextdoor](https://nextdoor.com/page/handoff-ai-coaching-sebastopol-ca/)
+- Contact: hello@handoffcoaching.com or (707) 495-0600
