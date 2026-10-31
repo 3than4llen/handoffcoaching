@@ -99,6 +99,9 @@ p{margin:0 0 1em}
 .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 @media (max-width:960px){.pricing{grid-template-columns:1fr 1fr}}
 @media (max-width:620px){.pricing{grid-template-columns:1fr}}
+.pricing-group{font:560 1.6rem/1.2 var(--serif);margin:48px 0 8px}
+.pricing-two{grid-template-columns:repeat(2,1fr)}
+@media (max-width:620px){.pricing-two{grid-template-columns:1fr}}
 .plan{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;position:relative}
 .plan.featured{border:2px solid var(--green);box-shadow:0 18px 36px -24px rgba(47,93,80,.55)}
 .plan .tag{position:absolute;top:-13px;left:24px;background:var(--amber);color:var(--ink);font:600 .72rem/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;padding:7px 10px;border-radius:999px;margin:0}
