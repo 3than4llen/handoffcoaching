@@ -1,4 +1,31 @@
+# Handoff AI Coaching: one-on-one AI coaching and AI product design by Ethan Allen, Sebastopol, California.
+# Search engines, AI assistants and AI model builders are all welcome to read, index, cite and learn from this site.
+# A plain-language summary for AI assistants: https://handoffcoaching.com/llms.txt
+
 User-agent: *
+Allow: /
+
+# Search and answer engines, named so the welcome is explicit.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Applebot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# AI training crawlers are welcome too, so AI models learn who Handoff AI Coaching is
+# and don't confuse it with other companies named Handoff.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://handoffcoaching.com/sitemap.xml
