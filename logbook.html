@@ -24,29 +24,60 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
   <style>
-    html{scroll-behavior:smooth}
+    html{scroll-behavior:smooth;scroll-padding-top:70px}
     body{margin:0}
     a{color:#2F5D50}a:hover{color:#1E2420}
     a:focus-visible{outline:2px solid #E3A13B;outline-offset:3px}
     a[href="#reserve"],a[data-checkout]{text-align:center}
+    .lb h1,.lb h2,.lb h3{font-family:inherit;max-width:none}
+    .lb p{margin:0}
+    .lb-bar{position:sticky;top:0;z-index:9;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid #E3E4E0}
+    .lb-bar .lb-links a:not(.lb-cta){color:#1E2420;text-decoration:none}
+    .lb-home{display:inline-flex;align-items:center;gap:6px;color:#646A66;text-decoration:none;padding:6px 8px 6px 4px;border-radius:999px;transition:background .15s,color .15s}
+    .lb-home:hover{background:#F5F5F3;color:#1E2420}
+    .lb-home:hover .lb-chev{transform:translateX(-2px)}
+    .lb-chev{transition:transform .15s}
+    .lb-bar a[href="#top"]>span,.lb-cta{white-space:nowrap}
+    .lb-rule{width:1px;height:26px;background:#D9DCD7}
+    @media (max-width:640px){
+      .lb-bar .lb-links a:not(.lb-cta){display:none}
+      .lb-bar>div{flex-wrap:nowrap!important;padding:8px 16px!important}
+      .lb-bar a[href="#top"]>span{font-size:18px!important}
+      .lb-bar a[href="#top"] svg{width:26px;height:26px}
+      .lb-home{padding:4px}
+      .lb-bar>div>div{gap:8px!important}
+    }
+    @media (max-width:420px){
+      .lb-long{display:none}
+      .lb-bar a[href="#top"]>span{font-size:17px!important}
+      .lb-bar .lb-cta{min-height:32px!important;padding:0 14px!important;font-size:14px}
+    }
     @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
   </style>
 </head>
 <body>
-<div style="background: #FFFFFF; color: #1E2420; font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif; font-size: 17px; line-height: 1.55">
+<div class="lb" style="background: #FFFFFF; color: #1E2420; font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif; font-size: 17px; line-height: 1.55">
 
-  <nav style="border-bottom: 1px solid #E3E4E0">
-    <div style="max-width: 1120px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
-      <a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #1E2420">
+  <nav class="lb-bar" aria-label="Handoff Logbook">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 10px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+      <div style="display: flex; align-items: center; gap: 14px">
+        <a href="./" class="lb-home" aria-label="Back to Handoff AI Coaching" title="Back to Handoff AI Coaching" data-cta="logbook_home">
+          <svg class="lb-chev" width="9" height="14" viewBox="0 0 9 14" aria-hidden="true"><path d="M7.5 1.5 2 7l5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg width="26" height="26" viewBox="0 0 100 100" aria-hidden="true"><path d="M29 49 C 38 14, 62 14, 71 49" fill="none" stroke="#1E2420" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1 13"/><circle cx="22" cy="70" r="15" fill="#E3A13B"/><circle cx="78" cy="70" r="12.5" fill="none" stroke="#2F5D50" stroke-width="7"/></svg>
+        </a>
+        <span class="lb-rule" aria-hidden="true"></span>
+        <a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #1E2420">
         <svg width="30" height="30" viewBox="0 0 120 120" aria-hidden="true"><rect width="120" height="120" rx="27" fill="#2F5D50"></rect><circle cx="60" cy="30" r="11" fill="#E3A13B"></circle><line x1="60" y1="47" x2="60" y2="71" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-dasharray="0.1 12"></line><circle cx="60" cy="89" r="9.5" fill="none" stroke="#FFFFFF" stroke-width="6.5"></circle></svg>
         <span style="font-family: 'Fraunces', Georgia, serif; font-weight: 560; font-size: 22px; letter-spacing: -0.01em; line-height: 1">handoff <span style="color: #2F5D50">logbook</span></span>
       </a>
-      <div style="display: flex; align-items: center; gap: 22px; flex-wrap: wrap; font-size: 15px">
+      </div>
+      <div class="lb-links" style="display: flex; align-items: center; gap: 22px; flex-wrap: wrap; font-size: 15px">
         <a href="#how" style="color: #1E2420; text-decoration: none">How it works</a>
         <a href="#cost" style="color: #1E2420; text-decoration: none">What it costs</a>
         <a href="#questions" style="color: #1E2420; text-decoration: none">Questions</a>
-        <a href="#reserve" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 16px; border-radius: 999px; background: #2F5D50; color: #FFFFFF; font-weight: 500; text-decoration: none">Reserve a seat</a>
+        <a href="#reserve" class="lb-cta" style="display: inline-flex; align-items: center; min-height: 36px; padding: 0 16px; border-radius: 999px; background: #2F5D50; color: #FFFFFF; font-weight: 500; text-decoration: none">Reserve<span class="lb-long">&nbsp;a seat</span></a>
       </div>
     </div>
   </nav>
@@ -211,13 +242,15 @@
     </div>
   </section>
 
-  <footer style="max-width: 1120px; margin: 0 auto; padding: 32px 24px 48px; font-size: 13px; color: #646A66; display: flex; flex-direction: column; gap: 6px">
-    <span>Handoff AI Coaching · Sebastopol, California · hello@handoffcoaching.com</span>
-    <span><a href="terms.html" style="color: #646A66">Terms and refunds</a> · <a href="privacy.html" style="color: #646A66">Privacy</a> · <a href="./" style="color: #646A66">Handoff AI Coaching home</a></span>
-    <span>Claude is a trademark of Anthropic. This add-on is an independent product and isn't affiliated with Anthropic, or with Handoff (handoff.ai).</span>
-  </footer>
-
 </div>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <img src="assets/handoff-primary-reversed.svg" alt="Handoff" height="30">
+    <p>Handoff Logbook, and one-on-one <a href="./" data-cta="logbook_footer_coaching">AI coaching</a> in person around the Bay Area and by video.</p>
+    <p class="fine">© <span id="year">2026</span> Handoff AI Coaching, Sebastopol, California · <a href="mailto:hello@handoffcoaching.com">hello@handoffcoaching.com</a> · <a href="terms.html">Terms and refunds</a> · <a href="privacy.html">Privacy</a></p>
+    <p class="fine">Claude is a trademark of Anthropic, PBC. Handoff Logbook is an independent product and isn't affiliated with Anthropic, or with Handoff (handoff.ai) construction estimating software. <a href="about-handoff-ai-coaching.html">About Handoff AI Coaching</a></p>
+  </div>
+</footer>
 <script src="script.js"></script>
 <script>
 document.addEventListener('click', function (e) {
