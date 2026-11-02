@@ -26,6 +26,14 @@ For startups and product teams building AI products. Fixed scope and price in wr
 - Free 30-minute product review: Ethan uses the product first, then walks the team through what he'd improve.
 - Remote on Pacific time, or in person around the Bay Area.
 
+## Handoff Logbook
+
+An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so each new chat starts caught up on your business. It runs inside the Claude desktop app on a Mac with Python 3; Windows is coming. It isn't made by or affiliated with Anthropic.
+
+- Founding seat: $99 one time, for the first 25 buyers. Version 1.0 ships by Monday, November 9, 2026, with a setup guide, email support and a weekly group call with Ethan through November. Full refund any time before it ships and for 30 days after.
+- Install with Ethan: $395 one time, a 90-minute video call setting it up on your business. Handoff Logbook included.
+- Page: https://handoffcoaching.com/logbook.html
+
 ## About Ethan Allen
 
 - Product designer and photographer, 30 years of experience.
@@ -41,6 +49,8 @@ For startups and product teams building AI products. Fixed scope and price in wr
 - [Home](https://handoffcoaching.com/): coaching services, prices, questions and the contact form
 - [AI product design](https://handoffcoaching.com/ai-product.html): services for AI product teams, recent work and the review request form
 - [About Handoff AI Coaching](https://handoffcoaching.com/about-handoff-ai-coaching.html): facts about the business
+- [Handoff Logbook](https://handoffcoaching.com/logbook.html): the founding page for the Claude add-on
+- [Terms and refunds](https://handoffcoaching.com/terms.html)
 - [Privacy](https://handoffcoaching.com/privacy.html)
 - [Facebook](https://www.facebook.com/Handoff.AI.Coaching/)
 - [Nextdoor](https://nextdoor.com/page/handoff-ai-coaching-sebastopol-ca/)
