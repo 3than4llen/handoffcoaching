@@ -4,7 +4,7 @@
 
 ## AI coaching
 
-Sessions happen on the client's own computer, on real work from their week. Everything set up stays in the client's own accounts. Handoff doesn't sell or resell software.
+Sessions happen on the client's own computer, on real work from their week. Everything set up stays in the client's own accounts. Clients pay for their AI subscriptions directly; Handoff doesn't resell them.
 
 - Free 20-minute intro call by phone or video.
 - Single session: $225 for 90 minutes, in person or by video.
@@ -28,9 +28,9 @@ For startups and product teams building AI products. Fixed scope and price in wr
 
 ## Handoff Logbook
 
-An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so each new chat starts caught up on your business. It runs inside the Claude desktop app on a Mac with Python 3; Windows is coming. It isn't made by or affiliated with Anthropic.
+An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so each new chat starts caught up on your business. It needs a paid Claude plan and the current Claude desktop app on a Mac (on Team and Enterprise plans an admin may need to allow plugins first), plus Python 3; Windows is coming. It isn't made by or affiliated with Anthropic.
 
-- Founding seat: $99 one time, for the first 25 buyers. Version 1.0 ships by Monday, November 9, 2026, with a setup guide, email support and a weekly group call with Ethan through November. Full refund any time before it ships and for 30 days after.
+- Founding seat: $99 one time, a founding price for a limited time. Version 1.0 ships by Monday, November 9, 2026, with a setup guide, email support and a weekly group call with Ethan through November. Full refund any time before it ships and for 30 days after.
 - Install with Ethan: $395 one time, a 90-minute video call setting it up on your business. Handoff Logbook included.
 - Page: https://handoffcoaching.com/logbook.html
 

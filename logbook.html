@@ -150,13 +150,13 @@
           <span style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">$99 <span style="font-size: 17px; font-weight: 500; color: #646A66; letter-spacing: 0">one time</span></span>
           <p style="margin: 0; color: #646A66">Claude working from your business record in every chat, set up in one sitting, with email support. Founders also get a weekly group call with me through November.</p>
           <a href="#reserve" style="margin-top: auto; display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #2F5D50; color: #FFFFFF; font-weight: 500; text-decoration: none">Reserve a founding seat, $99</a>
-          <span style="font-size: 13px; color: #646A66">Founding price, for a limited time. The regular price will be $149.</span>
+          <span style="font-size: 13px; color: #646A66">Founding price, for a limited time.</span>
         </div>
         <div style="background: #FFFFFF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
           <span style="font-size: 15px; font-weight: 600; color: #2F5D50">Install with Ethan</span>
           <span style="font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">$395 <span style="font-size: 17px; font-weight: 500; color: #646A66; letter-spacing: 0">one time</span></span>
           <p style="margin: 0; color: #646A66">90 minutes by video. I set it up on your real business with you, and you leave with it running. Handoff Logbook is included.</p>
-          <a href="https://ethanhandoff.gumroad.com/l/install" data-checkout="install" style="margin-top: auto; display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #FFFFFF; color: #2F5D50; border: 1px solid #C9D6D0; font-weight: 500; text-decoration: none">Book a 90-minute install, $395</a>
+          <a href="https://ethanhandoff.gumroad.com/l/install" data-checkout="install" style="margin-top: auto; display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; background: #FFFFFF; color: #2F5D50; border: 1px solid #C9D6D0; font-weight: 500; text-decoration: none">Buy a 90-minute install, $395</a>
         </div>
         <div style="background: #FFFFFF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
           <span style="font-size: 15px; font-weight: 600; color: #2F5D50">Business setup</span>
@@ -174,7 +174,7 @@
     <div style="display: flex; flex-direction: column">
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">What do I need?</h3>
-        <p style="margin: 0; color: #646A66">A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the Claude desktop app on a Mac. Windows is coming. Setup checks that your Mac has Python 3 and walks you through adding it if it doesn't.</p>
+        <p style="margin: 0; color: #646A66">A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on a Mac. On Team and Enterprise plans, your admin may need to allow plugins first. Windows is coming. Setup checks that your Mac has Python 3 and walks you through adding it if it doesn't.</p>
       </div>
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">Where does my business information go?</h3>
@@ -206,7 +206,7 @@
       <p style="margin: 0; font-size: 20px; color: #D7E5DF; max-width: 600px">$99, one time. Version 1.0 by Monday, November 9, with a full refund if it isn't right for you.</p>
       <div style="display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; margin-top: 8px">
         <a href="https://ethanhandoff.gumroad.com/l/logbook" data-checkout="logbook" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border-radius: 999px; background: #E3A13B; color: #1E2420; font-size: 17px; font-weight: 500; text-decoration: none">Go to checkout, $99</a>
-        <a href="./#contact" style="font-size: 17px; font-weight: 500; text-decoration: none; color: #FFFFFF">Questions first? Book a free 20-minute call ›</a>
+        <a href="./#contact" data-cta="logbook_reserve_call" style="font-size: 17px; font-weight: 500; text-decoration: none; color: #FFFFFF">Questions first? Book a free 20-minute call ›</a>
       </div>
     </div>
   </section>
@@ -218,6 +218,7 @@
   </footer>
 
 </div>
+<script src="script.js"></script>
 <script>
 document.addEventListener('click', function (e) {
   var a = e.target.closest('a[data-checkout]');
