@@ -1,6 +1,16 @@
 // Handoff site script: footer year, Web3Forms lead forms and Google Analytics (GA4) events.
 // Forms also work without JavaScript; this keeps visitors on the page and records conversions.
 (function () {
+  // Homepage Logbook feature: play the entrance once it scrolls into view.
+  var lbf = document.querySelector('.lbf');
+  if (lbf && 'IntersectionObserver' in window) {
+    lbf.classList.add('js');
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { if (en.isIntersecting) { lbf.classList.add('is-in'); io.disconnect(); } });
+    }, { threshold: 0.25 });
+    io.observe(lbf);
+  }
+
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
 

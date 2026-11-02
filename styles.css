@@ -238,3 +238,50 @@ details p{color:var(--ink-2);margin:12px 0 0;max-width:46em}
 .services-extra p:not(.eyebrow){color:var(--ink-2);margin:0;max-width:40em}
 .services-extra .eyebrow{margin-bottom:.6em}
 @media (max-width:760px){.services-extra{grid-template-columns:1fr}.services-extra .btn{justify-self:start}}
+
+/* Homepage: Handoff Logbook feature announcement */
+.lbf{position:relative;overflow:hidden;background:var(--green);color:var(--paper);padding:104px 0}
+.lbf-glow{position:absolute;inset:-40% -10% auto auto;width:720px;height:720px;border-radius:50%;background:radial-gradient(closest-side,rgba(227,161,59,.32),rgba(227,161,59,0));pointer-events:none}
+.lbf-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.lbf-pill{display:inline-flex;align-items:center;gap:8px;font:600 .82rem/1 var(--sans);letter-spacing:.04em;color:var(--ink);background:#FBEFD8;border-radius:999px;padding:8px 14px 8px 11px;margin:0 0 26px}
+.lbf-dot{width:8px;height:8px;border-radius:50%;background:var(--amber);display:inline-block;flex:none}
+.lbf-ring{width:9px;height:9px;border-radius:50%;border:2px solid var(--green);display:inline-block;flex:none}
+.lbf h2{color:var(--paper);font-size:clamp(2.3rem,4.6vw,3.7rem);line-height:1.04;max-width:14ch;margin-bottom:.45em}
+.lbf h2 em{font-style:italic;font-weight:400;color:#F2C77E}
+.lbf-lede{font-size:1.18rem;line-height:1.55;color:#D7E5DF;max-width:34em;margin:0 0 34px}
+.lbf-cta{display:flex;flex-wrap:wrap;align-items:center;gap:22px}
+.lbf-btn{background:var(--amber);color:var(--ink)}
+.lbf-btn:hover{background:#F2C77E;color:var(--ink)}
+.lbf-price{font-size:.92rem;line-height:1.45;color:#D7E5DF}
+.lbf-price b{color:var(--paper);font-size:1.05rem}
+.lbf-visual{display:flex;flex-direction:column;align-items:stretch}
+.lbf-card{background:#fff;color:var(--ink);border-radius:22px;padding:20px 22px 22px;display:flex;flex-direction:column;gap:12px;font-size:.98rem;line-height:1.5;box-shadow:0 30px 60px -30px rgba(0,0,0,.55)}
+.lbf-c1{margin-right:56px;transform:rotate(-1.2deg)}
+.lbf-c2{margin-left:40px;transform:rotate(.8deg)}
+.lbf-card p{margin:0}
+.lbf-day{align-self:center;display:inline-flex;align-items:center;gap:7px;font:600 .78rem/1 var(--sans);color:#646A66;background:#F5F5F3;border-radius:999px;padding:5px 12px 5px 9px}
+.lbf-you{align-self:flex-end;max-width:84%;background:#F5F5F3;border-radius:16px;padding:11px 15px}
+.lbf-ai{padding:0 4px}
+.lbf-card mark{background:#FBEFD8;color:var(--ink);border-radius:5px;padding:1px 4px;box-shadow:inset 0 -2px 0 var(--amber)}
+.lbf-thread{display:flex;align-items:center;gap:12px;height:72px;margin-left:42%;color:#BFD3CB;font:italic 400 .9rem/1 var(--serif)}
+.lbf-thread svg{width:20px;height:72px;flex:none}
+.lbf-thread path{stroke:#F2C77E;stroke-width:3;stroke-linecap:round;stroke-dasharray:.1 11;fill:none}
+/* Entrance: cards rise in, the dotted thread draws, the highlights land last */
+@media (prefers-reduced-motion:no-preference){
+  .lbf.is-in .lbf-c1{animation:lbfRise .7s cubic-bezier(.2,.7,.2,1) both}
+  .lbf.is-in .lbf-thread{animation:lbfFade .6s .45s both}
+  .lbf.is-in .lbf-c2{animation:lbfRise2 .7s .7s cubic-bezier(.2,.7,.2,1) both}
+  .lbf.is-in .lbf-c2 mark{animation:lbfMark .5s 1.35s both}
+  .lbf.js .lbf-c1,.lbf.js .lbf-c2,.lbf.js .lbf-thread{opacity:0}
+  .lbf.is-in .lbf-c1,.lbf.is-in .lbf-c2,.lbf.is-in .lbf-thread{opacity:1}
+}
+@keyframes lbfRise{from{opacity:0;transform:translateY(24px) rotate(-1.2deg)}to{opacity:1;transform:rotate(-1.2deg)}}
+@keyframes lbfRise2{from{opacity:0;transform:translateY(24px) rotate(.8deg)}to{opacity:1;transform:rotate(.8deg)}}
+@keyframes lbfFade{from{opacity:0}to{opacity:1}}
+@keyframes lbfMark{from{background-color:transparent;box-shadow:inset 0 0 0 var(--amber)}to{background-color:#FBEFD8;box-shadow:inset 0 -2px 0 var(--amber)}}
+@media (max-width:860px){
+  .lbf{padding:72px 0}
+  .lbf-grid{grid-template-columns:1fr;gap:44px}
+  .lbf-c1{margin-right:24px}.lbf-c2{margin-left:24px}
+  .lbf-thread{margin-left:30%}
+}
