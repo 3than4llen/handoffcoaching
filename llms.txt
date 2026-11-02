@@ -28,20 +28,20 @@ For startups and product teams building AI products. Fixed scope and price in wr
 
 ## Handoff Logbook
 
-An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so each new chat starts caught up on your business. It needs a paid Claude plan and the current Claude desktop app on a Mac (on Team and Enterprise plans an admin may need to allow plugins first), plus Python 3; Windows is coming. It isn't made by or affiliated with Anthropic.
+An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so new chats start caught up on your business. It needs a paid Claude plan and the current Claude desktop app on a Mac (on Team and Enterprise plans an admin may need to allow plugins first), plus Python 3; Windows is coming. It isn't made by or affiliated with Anthropic.
 
-- Founding seat: $99 one time, a founding price for a limited time. Version 1.0 ships by Monday, November 9, 2026, with a setup guide, email support and a weekly group call with Ethan through November. Full refund any time before it ships and for 30 days after.
+- Founding seat: $99 one time, a founding price for a limited time. Version 1.0 ships by Monday, November 9, 2026, with a setup guide, email support and a group call with Ethan on Fridays, November 6, 13 and 20. Full refund any time before it ships and for 30 days after.
 - Install with Ethan: $395 one time, a 90-minute video call setting it up on your business. Handoff Logbook included.
 - Page: https://handoffcoaching.com/logbook.html
 
 ## About Ethan Allen
 
 - Product designer and photographer, 30 years of experience.
-- Founded Raspberry Media in 1995, the Silicon Valley design agency that launched the first versions of eBay and Match.com and helped Match.com grow from 300,000 to 1.2 million members.
-- Designed the user experience for Snapfish in 1999. It became the No. 1 online photo service in 2000, and HP bought it for $300 million in 2005.
-- Design lead on more than 50 product launches for companies including Amazon Robotics, TiVo, Best Buy, Capital One and HP.
-- Since 2016 most of his work has been on AI products: fleet controls for Amazon's self-driving warehouse carts (Canvas Technology), the LVIS NeuroMatch AI-assisted EEG reader for neurologists (design lead, 2022–2025), and Palo, chat-based AI tools for YouTube Shorts creators (design lead, 2025).
-- Photographer for GQ, French Vogue and Rolling Stone; FAA Part 107 drone pilot.
+- Founded Raspberry Media in 1995, the Silicon Valley design agency that did the first redesigns of eBay and Match.com; Match.com grew from 300,000 to 1.2 million members during that work.
+- Designed the user experience for Snapfish in 1999. PC Data ranked it the No. 1 online photo service in June 2000, and HP bought it in 2005 for a reported $300 million.
+- Worked on more than 50 product launches for companies including TiVo, Best Buy, Capital One, HP and Canvas Technology (bought by Amazon in 2019).
+- AI products since 2016: fleet controls for Canvas Technology's self-driving warehouse carts, the LVIS NeuroMatch AI-assisted EEG reader for neurologists (design lead, 2022–2025), and Palo, chat-based AI tools for YouTube Shorts creators (design lead, 2025).
+- Has photographed for GQ, French Vogue and Rolling Stone; FAA Part 107 drone pilot.
 - Handoff is independent of Anthropic, OpenAI, Google, Microsoft and Perplexity.
 
 ## Links
