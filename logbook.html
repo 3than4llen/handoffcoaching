@@ -101,6 +101,11 @@
       "refundType": "https://schema.org/FullRefund",
       "returnFees": "https://schema.org/FreeReturn",
       "merchantReturnLink": "https://handoffcoaching.com/terms.html"
+     },
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "USD"},
+      "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "US"}
      }
     },
     {
@@ -111,7 +116,21 @@
      "priceCurrency": "USD",
      "availability": "https://schema.org/InStock",
      "url": "https://handoffcoaching.com/logbook.html#cost",
-     "seller": {"@id": "https://handoffcoaching.com/#business"}
+     "seller": {"@id": "https://handoffcoaching.com/#business"},
+     "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "US",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "refundType": "https://schema.org/FullRefund",
+      "returnFees": "https://schema.org/FreeReturn",
+      "merchantReturnLink": "https://handoffcoaching.com/terms.html"
+     },
+     "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "USD"},
+      "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "US"}
+     }
     }
    ]
   },
