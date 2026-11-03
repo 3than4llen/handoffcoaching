@@ -26,7 +26,7 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Two Claude chats. Friday: Dana's switching to mornings only. Monday, in a new chat: Dana's call is at 9am, since she asked for mornings.">
-  <meta property="og:updated_time" content="2026-11-02T17:00:00-08:00">
+  <meta property="og:updated_time" content="2026-11-03T10:45:00-08:00">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Handoff Logbook: Claude starts your chats already caught up on your business">
   <meta name="twitter:description" content="Keep working with Claude the way you do today. Founding seats $99, version 1.0 by November 9.">
@@ -51,7 +51,7 @@
    "description": "Handoff Logbook makes Claude check what you've already told it before it answers, and write down what it did before it stops. Founding seats $99, version 1.0 by November 9.",
    "inLanguage": "en-US",
    "datePublished": "2026-11-02",
-   "dateModified": "2026-11-02",
+   "dateModified": "2026-11-03",
    "isPartOf": {"@id": "https://handoffcoaching.com/#website"},
    "about": {"@id": "https://handoffcoaching.com/logbook.html#product"},
    "mainEntity": {"@id": "https://handoffcoaching.com/logbook.html#product"},
@@ -78,8 +78,8 @@
    "disambiguatingDescription": "An independent add-on for Claude, made by Handoff AI Coaching in Sebastopol, California. Not made by or affiliated with Anthropic, and not related to Handoff (handoff.ai) construction estimating software.",
    "applicationCategory": "BusinessApplication",
    "applicationSubCategory": "Claude add-on",
-   "operatingSystem": "macOS",
-   "softwareRequirements": "A paid Claude plan (Pro, Max, Ultra, Team or Enterprise), the current Claude desktop app on a Mac, and Python 3",
+   "operatingSystem": "Windows, macOS",
+   "softwareRequirements": "A paid Claude plan (Pro, Max, Ultra, Team or Enterprise), the current Claude desktop app on Windows or Mac",
    "brand": {"@type": "Brand", "name": "Handoff"},
    "author": {"@id": "https://handoffcoaching.com/#ethan"},
    "publisher": {"@id": "https://handoffcoaching.com/#business"},
@@ -138,10 +138,10 @@
    "@type": "FAQPage",
    "@id": "https://handoffcoaching.com/logbook.html#questions",
    "mainEntity": [
-    {"@type": "Question", "name": "What do I need?", "acceptedAnswer": {"@type": "Answer", "text": "A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on a Mac. On Team and Enterprise plans, your admin may need to allow plugins first. Windows is coming. Setup checks that your Mac has Python 3 and walks you through adding it if it doesn't."}},
-    {"@type": "Question", "name": "Where does my business information go?", "acceptedAnswer": {"@type": "Answer", "text": "It stays in your own Claude account. The add-on sends nothing to me or anyone else. It keeps a small log on your Mac so the weekly score can check it ran."}},
+    {"@type": "Question", "name": "What do I need?", "acceptedAnswer": {"@type": "Answer", "text": "A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on Windows or Mac. On Team and Enterprise plans, your admin may need to allow plugins first. There's nothing else to install on your computer."}},
+    {"@type": "Question", "name": "Where does my business information go?", "acceptedAnswer": {"@type": "Answer", "text": "It stays in your own Claude account. The add-on sends nothing to me or anyone else. Its small working log stays inside Claude too, not on your computer."}},
     {"@type": "Question", "name": "What if Claude skips a step?", "acceptedAnswer": {"@type": "Answer", "text": "At the end of every reply the add-on checks that Claude read your logbook and noted any changes. If it didn't, it sends Claude back to finish."}},
-    {"@type": "Question", "name": "Does it work when I use Claude on my phone?", "acceptedAnswer": {"@type": "Answer", "text": "It works in chats on your Mac today. I'm still testing chats started on the phone, and founders will hear from me as soon as that's confirmed."}},
+    {"@type": "Question", "name": "Does it work when I use Claude on my phone?", "acceptedAnswer": {"@type": "Answer", "text": "It works in chats in the Claude desktop app on Windows and Mac today. I'm still testing chats started on the phone, and founders will hear from me as soon as that's confirmed."}},
     {"@type": "Question", "name": "Can I see what Claude keeps track of?", "acceptedAnswer": {"@type": "Answer", "text": "Anytime. It's a plain page in your own Claude account. Most days you won't need to open it."}},
     {"@type": "Question", "name": "Who makes it?", "acceptedAnswer": {"@type": "Answer", "text": "I do, through Handoff AI Coaching in Sebastopol, California. It works with Claude, which is made by Anthropic."}}
    ]
@@ -329,7 +329,7 @@
         <li style="background: #FFFFFF; border-radius: 28px; padding: 32px; display: flex; flex-direction: column; gap: 10px">
           <span style="width: 36px; height: 36px; border-radius: 50%; background: #E3A13B; color: #1E2420; font-size: 16px; font-weight: 600; display: inline-flex; align-items: center; justify-content: center">3</span>
           <h3 style="margin: 0; font-size: 27px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.2">Work the way you already do</h3>
-          <p style="margin: 0; color: #646A66">It runs inside Claude, in your chats on the Mac. There's no new app to open or learn.</p>
+          <p style="margin: 0; color: #646A66">It runs inside Claude, in your chats on Windows or Mac. There's no new app to open or learn.</p>
         </li>
       </ol>
     </div>
@@ -375,11 +375,11 @@
     <div style="display: flex; flex-direction: column">
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">What do I need?</h3>
-        <p style="margin: 0; color: #646A66">A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on a Mac. On Team and Enterprise plans, your admin may need to allow plugins first. Windows is coming. Setup checks that your Mac has Python 3 and walks you through adding it if it doesn't.</p>
+        <p style="margin: 0; color: #646A66">A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on Windows or Mac. On Team and Enterprise plans, your admin may need to allow plugins first. There's nothing else to install on your computer.</p>
       </div>
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">Where does my business information go?</h3>
-        <p style="margin: 0; color: #646A66">It stays in your own Claude account. The add-on sends nothing to me or anyone else. It keeps a small log on your Mac so the weekly score can check it ran.</p>
+        <p style="margin: 0; color: #646A66">It stays in your own Claude account. The add-on sends nothing to me or anyone else. Its small working log stays inside Claude too, not on your computer.</p>
       </div>
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">What if Claude skips a step?</h3>
@@ -387,7 +387,7 @@
       </div>
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">Does it work when I use Claude on my phone?</h3>
-        <p style="margin: 0; color: #646A66">It works in chats on your Mac today. I'm still testing chats started on the phone, and founders will hear from me as soon as that's confirmed.</p>
+        <p style="margin: 0; color: #646A66">It works in chats in the Claude desktop app on Windows and Mac today. I'm still testing chats started on the phone, and founders will hear from me as soon as that's confirmed.</p>
       </div>
       <div style="border-top: 1px solid #E3E4E0; padding: 22px 0; display: flex; flex-direction: column; gap: 6px">
         <h3 style="margin: 0; font-size: 19px; font-weight: 600">Can I see what Claude keeps track of?</h3>
