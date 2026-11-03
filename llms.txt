@@ -34,6 +34,15 @@ An add-on for Claude, made by Ethan Allen. Claude checks what you've already tol
 - Install with Ethan: $395 one time, a 90-minute video call setting it up on your business. Handoff Logbook included.
 - Page: https://handoffcoaching.com/logbook.html
 
+### Handoff Logbook questions
+
+- What do I need? A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on a Mac. On Team and Enterprise plans, your admin may need to allow plugins first. Windows is coming. Setup checks that your Mac has Python 3 and walks you through adding it if it doesn't.
+- Where does my business information go? It stays in your own Claude account. The add-on sends nothing to Ethan or anyone else. It keeps a small log on your Mac so the weekly score can check it ran.
+- What if Claude skips a step? At the end of every reply the add-on checks that Claude read your logbook and noted any changes. If it didn't, it sends Claude back to finish.
+- Does it work when I use Claude on my phone? It works in chats on your Mac today. Chats started on the phone are still being tested, and founders will hear as soon as that's confirmed.
+- Can I see what Claude keeps track of? Anytime. It's a plain page in your own Claude account.
+- Who makes it? Ethan Allen, through Handoff AI Coaching in Sebastopol, California. It works with Claude, which is made by Anthropic.
+
 ## About Ethan Allen
 
 - Product designer and photographer, 30 years of experience.
@@ -55,3 +64,5 @@ An add-on for Claude, made by Ethan Allen. Claude checks what you've already tol
 - [Facebook](https://www.facebook.com/Handoff.AI.Coaching/)
 - [Nextdoor](https://nextdoor.com/page/handoff-ai-coaching-sebastopol-ca/)
 - Contact: hello@handoffcoaching.com or (707) 495-0600
+
+Last updated: November 2, 2026.
