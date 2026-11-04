@@ -28,7 +28,7 @@ For startups and product teams building AI products. Fixed scope and price in wr
 
 ## Handoff Logbook
 
-An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so new chats start caught up on your business. It needs a paid Claude plan and the current Claude desktop app on Windows or Mac, used in regular Claude chats (Claude Code isn't supported; on Team and Enterprise plans an admin may need to allow plugins first); there's nothing else to install. It isn't made by or affiliated with Anthropic.
+An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so new chats start caught up on your business. It needs a paid Claude plan and the Claude app on Windows, Mac or iPhone, used in regular Claude chats (Claude Code isn't supported; on Team and Enterprise plans an admin may need to allow plugins first); there's nothing else to install. It isn't made by or affiliated with Anthropic.
 
 - Founding seat: $99 one time, a founding price for a limited time. Version 1.0 ships by Monday, November 9, 2026, with a setup guide, email support and a group call with Ethan on Fridays, November 6, 13 and 20. Full refund any time before it ships and for 30 days after.
 - Install with Ethan: $395 one time, a 90-minute video call setting it up on your business. Handoff Logbook included.
@@ -36,10 +36,10 @@ An add-on for Claude, made by Ethan Allen. Claude checks what you've already tol
 
 ### Handoff Logbook questions
 
-- What do I need? A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the current Claude desktop app on Windows or Mac. It works in your regular Claude chats. Claude Code isn't supported. On Team and Enterprise plans, your admin may need to allow plugins first. There's nothing else to install on your computer.
+- What do I need? A paid Claude plan (Pro, Max, Ultra, Team or Enterprise) and the Claude app on Windows, Mac or iPhone. It works in your regular Claude chats. Claude Code isn't supported. On Team and Enterprise plans, your admin may need to allow plugins first. There's nothing else to install on your computer.
 - Where does my business information go? It stays in your own Claude account. The add-on sends nothing to Ethan or anyone else. Its small working log stays inside Claude too, not on your computer.
 - What if Claude skips a step? At the end of every reply the add-on checks that Claude read your logbook and noted any changes. If it didn't, it sends Claude back to finish.
-- Does it work when I use Claude on my phone? It works in chats in the Claude desktop app on Windows and Mac today. Chats started on the phone are still being tested, and founders will hear as soon as that's confirmed.
+- Does it work when I use Claude on my phone? Yes. It works in Claude chats on iPhone the same as on a computer (tested on an iPhone, November 3). Android isn't tested yet; founders will hear when it is.
 - Can I see what Claude keeps track of? Anytime. It's a plain page in your own Claude account.
 - Who makes it? Ethan Allen, through Handoff AI Coaching in Sebastopol, California. It works with Claude, which is made by Anthropic.
 
