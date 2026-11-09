@@ -28,7 +28,7 @@ For startups and product teams building AI products. Fixed scope and price in wr
 
 ## Handoff Logbook
 
-An add-on for Claude, made by Ethan Allen. Claude checks what you've already told it before it answers, and writes down what it did before it stops, so new chats start caught up on your business. It needs a paid Claude plan and the Claude app on Windows, Mac or iPhone, or Claude Duet, used in regular Claude chats (Claude Code isn't supported; on Team and Enterprise plans an admin may need to allow plugins first); there's nothing else to install. It isn't made by or affiliated with Anthropic.
+An add-on for Claude, made by Ethan Allen. Take Claude at its word: one record every chat reads, proof next to claims, and nothing gets past without a clear OK. Claude checks what you've already told it before it answers, shows how it knows when it says something is done, and holds anything going out until you OK it. Nothing leaves without your OK. Claude, with receipts. It needs a paid Claude plan and the Claude app on Windows, Mac or iPhone, or Claude Duet, used in regular Claude chats (Claude Code isn't supported; on Team and Enterprise plans an admin may need to allow plugins first); there's nothing else to install. It isn't made by or affiliated with Anthropic.
 
 - Founding seat: $99 one time, a founding price for a limited time. Nothing leaves without your OK. Claude, with receipts. Version 1.0 is in final testing and is emailed to founders when it's released, with a setup guide, email support and a group call with Ethan on Fridays, November 6, 13 and 20. Full refund any time before it ships and for 30 days after.
 - Install with Ethan: $395 one time, a 90-minute video call setting it up on your business. Handoff Logbook included.
